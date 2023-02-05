@@ -13,7 +13,8 @@ app.use(Bodyparser.urlencoded({ extended: false }))
 app.use(Cors())
 
 Mongoose.set("strictQuery", true);
-Mongoose.connect("mongodb+srv://varsha:varsha95@cluster0.etbicey.mongodb.net/EmployeeAppDB?retryWrites=true&w=majority",
+Mongoose.connect("mongodb+srv://Anandhan:ugugug123@cluster0.mdcorjq.mongodb.net/EmployeeAppDB?retryWrites=true&w=majority",
+                 
     { useNewURlParser: true })
 
 
